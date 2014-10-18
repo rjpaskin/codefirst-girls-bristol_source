@@ -8,21 +8,21 @@ There are three possibilities for the types of files they could be: HTML, CSS an
 
 <ul class="thumbnails">
   <li class="span3">
-    <div class="thumbnail">
+    <div class="thumbnail thumbnail-language">
       <img src="/assets/html5_logo_128.png" style="height: 128px;" alt="">
       <h3>HTML</h3>
       <p><em>HyperText Markup Language</em> encodes the information that is sent back from the server.</p>
     </div>
   </li>
   <li class="span3">
-    <div class="thumbnail">
+    <div class="thumbnail thumbnail-language">
       <img src="/assets/css.jpeg"  style="height: 128px;" alt="">
       <h3>CSS</h3>
       <p><em>Cascading Style Sheets</em> tell your browser how to display that information.</p>
     </div>
   </li>
   <li class="span3">
-    <div class="thumbnail">
+    <div class="thumbnail thumbnail-language">
       <img src="/assets/js.jpeg"  style="height: 128px;" alt="">
       <h3>Javascript</h3>
       <p><em>Javascript</em> is a programming language that can be used to provide client-side interactivity.</p>

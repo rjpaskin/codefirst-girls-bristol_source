@@ -1,4 +1,4 @@
-body.homepage { 
+body.homepage {
 	/* pattern from subtle patterns */
 	background-image: url('../assets/fabric_1.png');
 }
@@ -80,4 +80,17 @@ border-color: #428bca;
 color: #fff;
 background-color: #428bca;
 border-color: #428bca;
+}
+
+.thumbnail-language,
+.thumbnail-server {
+	padding: 10px;
+}
+
+.thumbnail-language {
+	min-height: 250px;
+}
+
+.thumbnail-server {
+	min-height: 280px;
 }
