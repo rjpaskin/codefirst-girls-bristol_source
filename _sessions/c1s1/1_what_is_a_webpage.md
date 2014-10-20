@@ -42,7 +42,7 @@ Back in the early days of the web HTML would both store the information and tell
 
 #### Viewing HTML, CSS and Javascript
 
-Because the HTML, CSS and Javascript are sent you your browser, it is easy for you to look at them. **There are no secrets in HTML, CSS or Javascript.** If there's a part of a webpage that you like, it's easy to find out how it is coded and use the technique yourself.
+Because the HTML, CSS and Javascript are sent to your browser, it is easy for you to look at them. **There are no secrets in HTML, CSS or Javascript.** If there's a part of a webpage that you like, it's easy to find out how it is coded and use the technique yourself.
 
 Every browser provides a way to look at the source of the page you're currently viewing. In Chrome you do `View > Developer > View Source`. This will show you the raw HTML but isn't always the easiest thing to look at.
 

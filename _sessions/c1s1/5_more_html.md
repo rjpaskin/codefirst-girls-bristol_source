@@ -31,7 +31,7 @@ Now we will look at some slightly more interesting things you can do with HTML.
 {% endhighlight %}
 
 * There are six levels of heading `h1` ... `h6`
-* The higher numbers are more important
+* The lower numbers are more important (i.e. `h1` is more important than `h6`)
 * It's usual to only have one `h1` on a page
 * You rarely see anything below `h4` in real pages
 
@@ -77,7 +77,7 @@ Now we will look at some slightly more interesting things you can do with HTML.
 {% endhighlight %}
 
 * The `href` property tells you where the link will point
-* You can specify this link it different ways:
+* You can specify this link in different ways:
     * absolute external link e.g. "http://www.facebook.com"
     * absolute local link e.g. "/about". This links to a file relative to the root of your webserver. For example if your site is at `www.example.com` the link will point to `www.example.com/about`
     * relative local link e.g. "about". This links to a file relative to the current HTML document. In this case it will link to the file called `about` in the same folder as your current html file.
