@@ -2,36 +2,26 @@
 title:  "Recap from last time"
 ---
 
-### HTML/CSS
+### The web
 
-* Webpage is just a collection of files: HTML, CSS & Javascript.
+* A webpage is just a collection of files: HTML, CSS & Javascript.
 * We can edit these files locally.
-* We can create them locally (using a text editor) and view then in a
-browser.
+* We can create them locally (using a text editor) and view then in a browser.
 
-### Command line
+### HTML
 
-* `ls` - list the files in the current directory
-* `cd coding_course` - move into the 'coding_course' directory
-* `cd ..` - move up a level
+* HTML is made up of a set of nested tags, which look like this: `<p>`.
+* Tags can either come in pairs: `<p>...</p>`, or as a *self-closing* tag: `<img>`.
+* You can add links with the `<a>` tag: `<a href="path/to/the/page">Link text</a>`.
+* You can add images with the `<img>` tag: `<img src="path/to/the/image.jpg" alt="description of the image">`.
+* Lists are made with the `<ol>` (numbered) or `<ul>` (bullets) tags. Each item in the list is surrounded by `<li>` tags.
+* Headings are made with the `<h1>` - `<h6>` tags, where lower numbers are more important.
+* Tables are constructed with the `<table>` tag, with each row contained within a `<tr>` tag, and each cell within a `<td>` tag.
 
-{% exercise %}
-<ol>
- <li>Open the command line ('Terminal' on a mac, 'Command prompt with Ruby on Rails' on windows)</li>
- <li>Use cd and ls to navigate to your coding_course folder.</li>
-</ol>
-{% endexercise %}
-
-### Something new
+### Setup for today
 
 {% exercise %}
-<ol>
-  <li>Make sure you're in your coding_course folder.</li>
-  <li>Do an ls.</li>
-  <li>Type git clone https://github.com/code61/html2.git</li>
-  <li>Do an ls.</li>
-</ol>
+1. Go to the github repository for this session: [https://github.com/code61/html2](https://github.com/code61/html2)
+2. [Download](https://github.com/code61/html2/archive/master.zip) the repository and unzip it (double click on the .zip file)
+3. Open the newly-created folder (with the same name as the .zip file) in Sublime Text and have a look around.
 {% endexercise %}
-
-You just used git to get the code for the next exercise onto your
-laptop!
