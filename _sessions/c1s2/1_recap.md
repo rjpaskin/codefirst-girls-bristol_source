@@ -18,6 +18,14 @@ title:  "Recap from last time"
 * Headings are made with the `<h1>` - `<h6>` tags, where lower numbers are more important.
 * Tables are constructed with the `<table>` tag, with each row contained within a `<tr>` tag, and each cell within a `<td>` tag.
 
+### Check your work from last time
+
+{% exercise %}
+* Go to the [Github repository](https://github.com/code61/learning_html) from the last session.
+* In the `branch` dropdown (just above the list of files) select the `solution` branch.
+* Click on the files below to see the solution.
+{% endexercise %}
+
 ### Setup for today
 
 {% exercise %}
