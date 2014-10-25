@@ -80,13 +80,11 @@ Follow the instructions, calling it something like `first_site`. **Do not** clic
 We will now set up your `first_site` folder to use git and push it up to github.
 
 {% exercise %}
-<ol>
-<li>Navigate to your first_site folder using cd and ls.</li>
-<li>Make it into a git repo: "gitgit init"</li>
-<li>Save all the work you've done so far: "gitgit save"</li>
-<li>Log in to GitHub.</li>
-<li>On github create a new repository called 'first_site'. DO NOT click the box which says 'Create a readme'.</li>
-<li>Copy and paste the instructions it gives you into the command line. You are 'Pushing an existing repository to github'.</li>
-<li>Go back to github and refresh the page. You should see your code.</li>
-</ol>
+1. Navigate to your first_site folder using cd and ls.
+2. Make it into a git repo: "gitgit init".
+3. Save all the work you've done so far: "gitgit save".
+4. Log in to GitHub.
+5. On github create a new repository called 'first_site'. DO NOT click the box which says 'Create a readme'.
+6. Copy and paste the instructions it gives you into the command line. You are 'Pushing an existing repository to github'.
+7. Go back to github and refresh the page. You should see your code.
 {% endexercise %}

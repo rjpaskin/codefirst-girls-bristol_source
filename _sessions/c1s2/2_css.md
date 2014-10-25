@@ -16,7 +16,7 @@ The first way is sometimes useful, but defeats the point of using CSS to separat
 
 ### CSS in the `<head>`
 
-If you're putting your CSS in the `<head>` of your html file (option 2) it should look something like this: 
+If you're putting your CSS in the `<head>` of your html file (option 2) it should look something like this:
 
 {% highlight html %}
 <head>
@@ -47,9 +47,7 @@ h3 {
 Note that you can specify multiple properties on one element. When you do this it's nice to lay them out on multiple lines as done above.
 
 {% exercise %}
-<ol>
-<li>Open `exercise1.html` in Sublime Text and in Chrome.</li>
-<li>Add some css in the `head` to make the `h1` turn red.</li>
-<li>Continue with the exercise until `exercise1.html` looks like `exercise1_solution.png`.</li>
-</ol>
+1. Open `exercise1.html` in Sublime Text and in Chrome.
+2. Add some css in the `head` to make the `h1` turn red.
+3. Continue with the exercise until `exercise1.html` looks like `exercise1_solution.png`.
 {% endexercise %}
