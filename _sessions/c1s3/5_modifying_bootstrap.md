@@ -9,7 +9,7 @@ title: Modifying Bootstrap
 If you're going to modify Bootstrap **don't touch the Bootstrap files**. Instead create a new css file of your own to overwrite anything you don't want. This means when a new version of Bootstrap comes out you can upgrade by dragging the new version over the top of the old, without losing any modifications.
 
 
-{% exercise %}  
+{% exercise %}
 1. Create a file called `main.css` and write the following CSS:
 {% highlight css %}
 #social-buttons button {
@@ -28,7 +28,7 @@ If you're going to modify Bootstrap **don't touch the Bootstrap files**. Instead
   border-color: #b62f26;
 }
 {% endhighlight %}
-2. Link this file into the `head` of `index.html` **underneath your link to bootstrap**.  
+2. Link this file into the `head` of `index.html` **underneath your link to bootstrap**.
 3. What happens? Notice how in the first rule we've selected only those buttons that exist inside an element with `id=social-buttons`.
 {% endexercise %}
 
@@ -71,7 +71,7 @@ Change the background color of the `mission` section to `rgba(32, 35, 41, 0.9)` 
 Browse through the [navbar section](http://getbootstrap.com/components/#navbar) of the Bootstrap docs.
 
 {% exercise %}
-1. Look at the html for the [basic starter template](http://getbootstrap.com/examples/starter-template/).
+1. Look at the HTML for the [basic starter template](http://getbootstrap.com/examples/starter-template/).
 2. Use it to add a navbar to your site.
 2. Make it a `navbar-fixed-top`. You will need to add
 
@@ -83,7 +83,7 @@ Browse through the [navbar section](http://getbootstrap.com/components/#navbar) 
 
 ### Other things
 
-There are various other changes you will need to make your site look like the example. Try and figure out what these are by examining the html in the Developer tools.
+There are various other changes you will need to make your site look like the example. Try and figure out what these are by examining the HTML in the Developer tools.
 
 {% exercise %}
 1. Make any other changes necessary to make your site look like [the example](http://code61.github.io/bootstrap_exercise/)

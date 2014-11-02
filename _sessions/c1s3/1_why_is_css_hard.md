@@ -2,7 +2,7 @@
 title: What's hard about CSS?
 ---
 
-You've seen quite a bit of CSS now; it all seems quite straightforward - you write some css, tweak it 'til it looks good and you're done! In theory this is exactly how CSS works and is why CSS is brilliant.  
+You've seen quite a bit of CSS now; it all seems quite straightforward - you write some CSS, tweak it 'til it looks good and you're done! In theory this is exactly how CSS works and is why CSS is brilliant.
 
 <div style="display: block;margin-left: auto; margin-right: auto; width: 200px;">
 <img src="/assets/cat_pic.jpg" class='img-polaroid' width='200px'>
