@@ -12,7 +12,7 @@ that too.
 On Windows the guys at [Rails Installer](http://railsinstaller.org/en) have put together a single package that contains both Ruby and Git. We're going to use that to get both on your laptop.
 
 {% exercise %}
-If you are on Windows:
+If you are on Windows (and haven't done so already):
 * Download and install [Rails Installer](http://railsinstaller.org/en)
 {% endexercise %}
 
@@ -34,4 +34,16 @@ into the Terminal. (You should check this, as the precise instructions might hav
 * Once homebrew in installed type the following into the Terminal:
 
       brew install git
+{% endexercise %}
+
+### Tell Git who you are
+
+Since Git (and Github) allows more than one more person to collaborate on a project (indeed, that's one of its big draws), you'll need to tell Git your name and email so that it can tag all your work.
+
+{% exercise %}
+1. Open *Terminal* or *Command Prompt with Ruby on Rails*
+2. Type the following commands, taking care to substitute **your** name and email address (use the same one as you use with Github) - don't include the dollar ($) sign:
+
+<pre><code>$ git config --global user.name 'My Name'
+$ git config --global user.email my@email.com</code></pre>
 {% endexercise %}
