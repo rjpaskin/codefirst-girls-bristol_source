@@ -2,19 +2,6 @@
 title: Recap from last time
 ---
 
-### Before you start: updating gitgit
-
-There have been some updates and improvements to gitgit! To get these
-improvements open the command line and run:
-
-    gem update gitgit
-
-To check it worked run
-
-    gitgit version
-
-it should say '0.0.5' (or higher).
-
 ### Before you start: verifying github email address
 
 Today we're going to be putting up your first site using [GitHub
@@ -47,24 +34,3 @@ push")</li>
 </ol>
 
 {% endexercise %}
-
-### Something new: publishing site using GitHub pages
-
-You're now going to publish your 'first_site' using [GitHub Pages](https://pages.github.com/).
-
-To do this you need to push your website up to a branch called
-'gh-pages'. You don't know about branches yet, but you can see them on
-github. Right now you'll just see a single branch called 'master'.
-
-You don't actually need to understand anything about branches at the
-moment, as gitgit makes it really easy to publish as a github page. Just
-run
-
-    gitgit publish
-
-When you go to github you should now see a 'gh-pages' option in the
-branches dropdown.
-
-The 'gh-pages' branch is a signal to github that you want your code to
-be deployed as a website. You can find the url of your website by
-looking in your repository settings on GitHub.
