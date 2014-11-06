@@ -46,4 +46,12 @@ Since Git (and Github) allows more than one more person to collaborate on a proj
 
 <pre><code>$ git config --global user.name 'My Name'
 $ git config --global user.email my@email.com</code></pre>
+
+If everything works, you should see nothing (which is the convention with Unix terminals - only when an error occurs will you see anythin). To check that Git has remembered you, you can enter the following into the command line:
+
+<pre><code>$ git config --list</code></pre>
+
+and you should see something like this (other lines may be present, don't worry about them):
+<pre><code>user.name=My Name
+user.email=my@email.com</code></pre>
 {% endexercise %}
