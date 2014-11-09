@@ -1,5 +1,5 @@
 ---
-title: "Pushing to GitHub"
+title: Pushing to GitHub
 ---
 
 Git is a version control system. It allows you to keep the entire history of your code, and makes it easy to share and collaborate with others.
@@ -57,32 +57,32 @@ After you've made some changes to your files and saved them, you can **save them
 
     gitgit save
 
-Finally, to push your code up to Github you can do
+Finally, to push your code up to GitHub you can do:
 
     gitgit push
 
-Before you do this, you will need to setup your repo with Github.
+Before you do this, you will need to setup your repo with GitHub.
 
-### Setting up your repo with Github
+### Setting up your repo with GitHub
 
-Go to Github, login, and click "Create New Repo" in the top left hand corner.
+Go to GitHub, login, and click "Create New Repo" in the top left hand corner.
 
-![Creating a repo on Github](/assets/create_repo.png)
+![Creating a repo on GitHub](/assets/create_repo.png)
 
-Follow the instructions, calling it something like `first_site`. **Do not** click the box which says 'Create a readme with this repository'. You'll get to a page when it'll describe how to get your code online. You want to follow the instructions for "Pushing an existing repository to Github".
+Follow the instructions, calling it something like `first_site`. **Do not** click the box which says 'Create a readme with this repository'. You'll get to a page when it'll describe how to get your code online. You want to follow the instructions for "Pushing an existing repository to GitHub".
 
-### Pushing your code to Github
+### Pushing your code to GitHub
 
-We will now set up your `first_site` folder to use git and push it up to Github.
+We will now set up your `first_site` folder to use Git and push it up to GitHub.
 
 {% exercise %}
-1. Navigate to your first_site folder using `cd` and `ls`.
+1. Navigate to your `first_site` folder using `cd` and `ls`.
 2. Make it into a git repo: `gitgit init`.
 3. Save all the work you've done so far: `gitgit save`.
-4. Log in to Github.
-5. On Github create a new repository called 'first_site'. DO NOT click the box which says 'Create a readme'.
-6. Copy and paste the instructions it gives you into the command line. You are 'Pushing an existing repository to Github'.
-7. Go back to Github and refresh the page. You should see your code.
+4. Log in to GitHub.
+5. On GitHub create a new repository called 'first_site'. DO NOT click the box which says 'Create a readme'.
+6. Copy and paste the instructions it gives you into the command line. You are 'Pushing an existing repository to GitHub'.
+7. Go back to GitHub and refresh the page. You should see your code.
 {% endexercise %}
 
 ### Publishing site using GitHub pages
@@ -91,17 +91,25 @@ You're now going to publish your `first_site` using [GitHub Pages](https://pages
 
 To do this you need to push your website up to a branch called
 `gh-pages`. You don't know about branches yet, but you can see them on
-Github. Right now you'll just see a single branch called `master`.
+GitHub. Right now you'll just see a single branch called `master`.
 
 You don't actually need to understand anything about branches at the
-moment, as gitgit makes it really easy to publish as a Github page. Just
+moment, as gitgit makes it really easy to publish as a GitHub page. Just
 run
 
     gitgit publish
 
-When you go to github you should now see a `gh-pages` option in the
+When you go to GitHub you should now see a `gh-pages` option in the
 branches dropdown.
 
-The `gh-pages` branch is a signal to Github that you want your code to
+The `gh-pages` branch is a signal to GitHub that you want your code to
 be deployed as a website. You can find the URL of your website by
 looking in your repository settings on GitHub.
+
+Typically, you'll need to wait about 10 minutes after you publish changes before your site is updated.
+
+{% exercise %}
+Visit the domain you put in your `CNAME` file - you should see your `first_site` in all it's glory!
+
+If you get a page with the GitHub logo and a big "404", wait a few minutes and try again.
+{% endexercise %}

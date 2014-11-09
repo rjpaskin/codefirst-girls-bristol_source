@@ -21,7 +21,7 @@ If you're using 123-reg, your should log in, select your domain from the list, a
 
 ![123-reg DNS Settings](/assets/dns_settings.png)
 
-(The @ dns entry stands for the root or bare domain.)
+(The `@` dns entry stands for the root or bare domain.)
 
 {% exercise %}
 Log in to your domain registrar and set an A-record to point towards GitHub.
@@ -29,7 +29,7 @@ Log in to your domain registrar and set an A-record to point towards GitHub.
 
 Your changes won't take effect immediately.
 
-### Tell github to expect requests for your domain name
+### Tell GitHub to expect requests for your domain name
 
 {% exercise %}
 1. Open Sublime Text and create a new file.
@@ -37,6 +37,5 @@ Your changes won't take effect immediately.
 
          mydomain.com
 
-3. Save that file as `CNAME` (uppercase, with no extension) in your `first_site` folder
-4. Commit your change and then push to github.
+3. Save that file as `CNAME` (uppercase, with no extension) in your `first_site` folder.
 {% endexercise %}
