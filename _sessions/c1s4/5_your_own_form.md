@@ -13,7 +13,7 @@ We're going to use [a free service](http://forms.brace.io) from [Brace.io](http:
 {% exercise %}
 1. Copy and paste the following into *Terminal* or *Command Prompt with Ruby on Rails* (where *path/to/html_forms* is the location of the `html_forms` repo you cloned):
 
-       ruby -run -e http path/to/html_forms -p 5000
+       ruby -run -e httpd path/to/html_forms -p 5000
 
 2. Open [http://localhost:5000/basic_form.html](http://localhost:5000/basic_form.html) - you should see the same page as before.
 {% endexercise %}

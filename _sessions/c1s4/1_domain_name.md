@@ -15,7 +15,7 @@ Github explains this [here](https://help.github.com/articles/setting-up-a-custom
 
 ### Pointing your domain name towards GitHub
 
-For the first bit you need to log in to your domain registrar and change the DNS settings. You want an *A-record* pointing to `204.232.175.78` (which is github.com). Note that it can take up to a couple of days for DNS changes to propagate.
+For the first bit you need to log in to your domain registrar and change the DNS settings. You want *A-records* pointing to `192.30.252.153` and `192.30.252.154` (which are github.com). Note that it can take up to a couple of days for DNS changes to propagate.
 
 If you're using 123-reg, your should log in, select your domain from the list, and click "Manage". You should then go to "Manage DNS".
 
