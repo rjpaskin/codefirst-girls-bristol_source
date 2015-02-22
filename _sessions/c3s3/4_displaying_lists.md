@@ -17,7 +17,7 @@ end
 
 We can do this by using the `@fruits` array's `each` method to iterate over the elements and put them into the page one-by-one.
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- in views/fruits_view.erb -->
 <ul>
   <% @fruits.each do |fruit| %>

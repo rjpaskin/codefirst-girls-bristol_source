@@ -14,13 +14,15 @@ The important bit is `erb(:email, :layout => false)`, which tells sinatra to fin
 
 The template will look something like this:
 
-    Hello there!
+{% highlight rhtml %}
+Hello there!
 
-    <%= @name %> is a great fruit!
+<%= @name %> is a great fruit!
 
-    Best,
+Best,
 
-    The FruitApp team
+The FruitApp team
+{% endhighlight %}
 
 {% exercise %}
 1. Add the required line of code in the `post '/'` block, to send a welcome email to the new user.

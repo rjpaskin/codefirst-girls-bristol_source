@@ -14,7 +14,7 @@ get '/' do
 end
 {% endhighlight %}
 
-{% highlight html%}
+{% highlight rhtml%}
 <!-- in views/form.erb -->
 
 <!DOCTYPE html>
@@ -53,7 +53,7 @@ post '/' do
 end
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- in views/welcome.erb  -->
 
 <!DOCTYPE html>

@@ -14,7 +14,7 @@ Another way, that we'll be looking at today, is in the form of layouts.
 
 In the exercise today, you've been using a lot of erb view templates. You have 4 different templates, which all share the same basic outline:
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- in views/index.erb -->
 <!DOCTYPE html>
 <html>
@@ -35,7 +35,7 @@ In the exercise today, you've been using a lot of erb view templates. You have 4
 </html>
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- in views/todo.erb -->
 <!DOCTYPE html>
 <html>
@@ -61,7 +61,7 @@ These files are almost the same - a lot of copy and paste has gone on.
 
 Sinatra gets round this problem by allowing you to have a `layout.erb` file in your `views` folder:
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- views/layout.erb -->
 <!DOCTYPE html>
 <html>
@@ -78,7 +78,7 @@ Sinatra gets round this problem by allowing you to have a `layout.erb` file in y
 
 You can then write only the bits that change in the other two views:
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- in views/index.erb -->
 <h1>Picture Unveiling Evening - Event Managment</h1>
 
@@ -89,7 +89,7 @@ You can then write only the bits that change in the other two views:
 </ul>
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight rhtml %}
 <!-- in views/todo.erb -->
 <h1>Todo list</h1>
 
