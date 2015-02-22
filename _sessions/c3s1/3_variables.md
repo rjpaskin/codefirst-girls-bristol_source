@@ -78,8 +78,7 @@ In the code above, string1 and string2 are exactly the same. The difference betw
 
 {% highlight ruby %}
 age = 5
-age_description = "My age is #{age}."
-=> "My age is 5."
+age_description = "My age is #{age}." #=> "My age is 5."
 {% endhighlight %}
 
 Any ruby expression inside the `#{ }` will be evaluated and inserted into the string. Here we gave it the variable `age`, which points to the value `5`. As `5` is a value it evaluates to itself, so 5 is inserted into the string.

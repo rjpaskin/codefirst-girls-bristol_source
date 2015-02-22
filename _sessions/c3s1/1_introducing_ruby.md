@@ -15,9 +15,9 @@ In this course, we'll be leaning the basics of ruby, in a web development contex
 Ruby is an _interpreted language_. One of the great things about an interpreted language is that it's often possible to interact with the interpreter in real time. When you installed ruby, you also got a program called `irb` (interactive ruby), which allows you to interpret ruby on the command line. To start it you just type `irb` on the command line.
 
 {% highlight irb %}
-001: > 2 + 2
- => 4 
-002: > 
+>> 2 + 2
+=> 4
+>>
 {% endhighlight %}
 
 `2 + 2` is a ruby *expression*. The `=>` symbol tells you what *value* this expression evaluates to. The interpreter has converts expressions to values.
@@ -25,9 +25,9 @@ Ruby is an _interpreted language_. One of the great things about an interpreted 
 If you just type the value `4` into irb, you will see that it will return `4` to you. 
 
 {% highlight irb %}
-001: > 4
- => 4 
-002: > 
+>> 4
+=> 4
+>>
 {% endhighlight %}
 
 Like all values in ruby, `4` is also an expression - it just evaluates to itself.
@@ -39,13 +39,13 @@ So far you've only seen values that are numbers. We'll come across some other va
 In ruby, any part of a line that comes after a `#` is ignored. This is useful when you're writing complicated programs, as it allows you to write human-readable comments to document your code.
 
 {% highlight irb %}
-001: > 2 + 2  # add together 2 and 2
- => 4 
-002: > # this does nothing
-003: > 
+>> 2 + 2  # add together 2 and 2
+=> 4
+>> # this does nothing
+>>
 {% endhighlight %}
 
-Notice how in line `002` above there is no `=>` and no return value; comments don't evaluate to anything - they're completely ignored.
+Notice how in the line `# this does nothing` above there is no `=>` and no return value; comments don't evaluate to anything - they're completely ignored.
 
 {% exercise %}
 1. Pick a partner.

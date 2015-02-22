@@ -2,10 +2,10 @@
 title: Exercise summary
 ---
 
-{% highlight ruby %}
-> x = 1
+{% highlight irb %}
+>> x = 1
 => 1
-> x = x + 1
+>> x = x + 1
 => 2
 {% endhighlight %}
 
@@ -89,16 +89,16 @@ In the second case, we use the in-place version of `captialize!`. It changes the
 </svg>
 
 
-{% highlight ruby %}
-> name = "Dave"
+{% highlight irb %}
+>> name = "Dave"
 => "Dave"
-> f = "Hello #{name}! "
+>> f = "Hello #{name}! "
 => "Hello Dave! "
-> f
+>> f
 => "Hello Dave! "
-> name = "Sarah"
+>> name = "Sarah"
 => "Sarah"
-> f
+>> f
 => "Hello Dave! "
 {% endhighlight %}
 
